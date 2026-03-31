@@ -2,7 +2,7 @@ import React from "react";
 import TeamCard from "../components/TeamCard";
 import navi from "../assets/dwi.jpeg";
 
-function NaviProfile() {
+function NavianProfile() {
   return (
     <div className="min-h-screen bg-green-100 flex flex-col items-center justify-center p-6">
       <img
@@ -23,4 +23,4 @@ function NaviProfile() {
   );
 }
 
-export default NaviProfile;
+export default NavianProfile;
