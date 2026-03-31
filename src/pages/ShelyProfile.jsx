@@ -6,9 +6,9 @@ function ShelyProfile() {
   return (
     <div className="min-h-screen bg-green-100 flex flex-col items-center justify-center p-6">
       <img
-        src="/assets/ijazah.jpg"
-        alt="Shely"
-        className="w-48 h-48 rounded-full mb-6 shadow-lg"
+         src={shely}
+         alt="Shely"
+         className="w-48 h-48 rounded-full mb-6 shadow-lg"
       />
       <h1 className="text-4xl font-bold mb-2">Shely Rahmatika</h1>
       <p className="text-gray-700 mb-2">Mahasiswi Teknologi Informasi | kelas T2E | Domisili: Ponorogo</p>
