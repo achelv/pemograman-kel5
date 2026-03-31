@@ -3,7 +3,7 @@ import TeamCard from "../components/TeamCard";
 
 function Home() {
   const team = [
-    { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "/assets/shely.jpg" },
+    { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "/assets/ijazah.jpg" },
     // nanti tambahkan Navi dan Julin kalau sudah ada fotonya
   ];
 
