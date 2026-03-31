@@ -10,7 +10,7 @@ function ShelyProfile() {
          alt="Shely"
          className="w-48 h-48 rounded-full mb-6 shadow-lg"
       />
-      <h1 className="text-4xl font-bold mb-2">Shely Rahmatika</h1>
+      <h1 className="text-4xl font-bold mb-2">Shely Rahmatika Devi</h1>
       <p className="text-gray-700 mb-2">Mahasiswi Teknologi Informasi | kelas T2E | Domisili: Ponorogo</p>
       <p className="max-w-xl text-center mt-4 text-gray-800">
         Halo! Saya Shely Rahmatika. Saya menyukai teknologi, web design, dan React JS.
