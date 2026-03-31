@@ -3,9 +3,9 @@ import TeamCard from "../components/TeamCard";
 
 function Home() {
   const team = [
-    { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "/assets/ijazah.jpg" },
+    { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "src/assets/ijazah.jpg" },
     { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "/assets/shely.jpg" },
-     { name: "Dwiki Ilman Navian", route: "/navi-profile", image: "/assets/navi.jpg" },
+    { name: "Dwiki Ilman Navian", route: "/navi-profile", image: "/assets/navi.jpg" },
   ];
   
 
