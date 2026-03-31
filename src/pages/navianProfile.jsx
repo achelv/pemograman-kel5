@@ -4,7 +4,7 @@ import TeamCard from "../components/TeamCard";
 export default function navianProfile() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
-      <h1 className="text-3xl font-bold mb-4">Navi Rafliansyah</h1>
+      <h1 className="text-3xl font-bold mb-4">Navian</h1>
       <img
         src="/path-to-navi-photo.jpg"
         alt="Navi Profile"
@@ -19,7 +19,7 @@ export default function navianProfile() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <TeamCard name="Navi Rafliansyah" role="Front-end Developer" />
+        <TeamCard name="Navian" role="Front-end Developer" />
       </div>
     </div>
   );
