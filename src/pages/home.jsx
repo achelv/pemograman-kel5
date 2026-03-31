@@ -4,8 +4,10 @@ import TeamCard from "../components/TeamCard";
 function Home() {
   const team = [
     { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "/assets/ijazah.jpg" },
-    // nanti tambahkan Navi dan Julin kalau sudah ada fotonya
+    { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "/assets/shely.jpg" },
+     { name: "Dwiki Ilman Navian", route: "/navi-profile", image: "/assets/navi.jpg" },
   ];
+  
 
   return (
     <div className="min-h-screen bg-green-50 flex flex-col items-center justify-center p-6">
