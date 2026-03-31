@@ -4,7 +4,7 @@ function ShelyProfile() {
   return (
     <div className="min-h-screen bg-green-100 flex flex-col items-center justify-center p-6">
       <img
-        src="/assets/shely.jpg"
+        src="/assets/ijasah.jpg"
         alt="Shely"
         className="w-48 h-48 rounded-full mb-6 shadow-lg"
       />
