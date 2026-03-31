@@ -4,7 +4,7 @@ import TeamCard from "../components/TeamCard";
 function Home() {
   const team = [
     { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "src/assets/ijazah.jpg" },
-    { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "/assets/shely.jpg" },
+    { name: "Diyah Ayu Juliandra", route: "/andra-profile", image: "src/assets/andra.jpeg" },
     { name: "Dwiki Ilman Navian", route: "/navi-profile", image: "src/assets/dwi.jpeg" },
   ];
   
