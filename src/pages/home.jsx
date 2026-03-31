@@ -11,6 +11,9 @@ function Home() {
     { name: "Shely Rahmatika Devi", route: "/shely-rahmatika", image: shely },
     { name: "Dwiki Ilman Navian", route: "/navi-profile", image: navian },
     { name: "Diyah Ayu Juliandra", route: "/andra-profile", image: andra },
+    { name: "Shely Rahmatika Devi", route: "/shely-profile", image: "src/assets/ijazah.jpg" },
+    { name: "Dwiki Ilman Nafian", route: "/navi-profile", image: "src/assets/dwi.jpeg" },
+    { name: "Diyah Ayu Juliandra", route: "/andra-profile", image: "src/assets/andra.jpeg" },
   ];
 
   return (
