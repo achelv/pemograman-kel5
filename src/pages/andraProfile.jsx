@@ -1,7 +1,7 @@
 import React from "react";
 import navi from "../assets/andra.jpeg";
 
-function NavianProfile() {
+function andraProfile() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-100 to-green-50 flex flex-col items-center p-6">
 
@@ -55,4 +55,4 @@ function NavianProfile() {
   );
 }
 
-export default NavianProfile;
+export default andraProfile;
