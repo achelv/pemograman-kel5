@@ -1,25 +1,41 @@
 import React from "react";
-import foto from "../assets/andra.jpeg"; // 
+import navi from "../assets/andra.jpeg";
 
-function AndraProfile() {
+function NavianProfile() {
   return (
-    <div className="min-h-screen bg-blue-100 flex flex-col items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-br from-green-100 to-green-50 flex flex-col items-center p-6">
 
-      <h1 className="text-4xl font-bold mb-4">Diyah Ayu Juliandra</h1>
+      {/* HEADER */}
+      <h1 className="text-3xl font-bold text-green-700 mb-6">
+        Profil Anggota
+      </h1>
 
-      <div className="text-center text-gray-800 space-y-1">
-        <p><span className="font-semibold">Kelas:</span> T2E</p>
-        <p><span className="font-semibold">Jurusan:</span> Teknologi Informasi</p>
-        <p><span className="font-semibold">Domisili:</span> Tuban</p>
-      </div>
+      {/* CARD */}
+      <div className="bg-white rounded-2xl shadow-lg p-8 max-w-xl w-full text-center">
 
-      <img
-      src={foto}
-      alt="profile"
-      className="w-48 h-48 rounded-full my-6 shadow-lg"
-      />
-      <p className="max-w-xl text-center text-gray-800">
-        Halo! Saya adalah Diyah Ayu Juliandra, mahasiswa Teknologi Informasi 
+        {/* FOTO */}
+        <img
+          src={andra}
+          alt="andra"
+          className="w-40 h-40 object-cover rounded-full mx-auto mb-4 border-4 border-green-200 shadow-md"
+        />
+
+        {/* NAMA */}
+        <h1 className="text-2xl font-bold text-gray-800">
+          Diyah Ayu Juliandra
+        </h1>
+
+        {/* INFO */}
+        <p className="text-gray-600 mt-2">
+          Mahasiswi Teknologi Informasi | Kelas T2E
+        </p>
+        <p className="text-gray-500 text-sm">
+          Domisili: Tuban
+        </p>
+
+        {/* DESKRIPSI */}
+        <p className="text-gray-700 mt-4 leading-relaxed text-justify">
+          Halo! Saya adalah Diyah Ayu Juliandra, mahasiswa Teknologi Informasi 
         Universitas Brawijaya yang memiliki minat kuat di bidang teknologi, 
         terutama UI/UX. Saya berfokus untuk terus mengasah kemampuan dalam merancang 
         antarmuka yang intuitif serta memberikan pengalaman pengguna yang optimal. 
@@ -27,10 +43,16 @@ function AndraProfile() {
         menerjemahkannya ke dalam desain yang fungsional, estetis, dan mudah digunakan. 
         Saya juga terbiasa untuk terus belajar, beradaptasi dengan perkembangan teknologi, 
         serta meningkatkan keterampilan melalui berbagai proyek dan eksplorasi di bidang desain digital.
-      </p>
+
+          <br /><br />
+
+        Saya berharap dapat terus mengembangkan diri dan berkontribusi dalam menciptakan solusi digital
+        yang inovatif dan bermanfaat bagi banyak orang.
+        </p>
+      </div>
 
     </div>
   );
 }
 
-export default AndraProfile;
+export default NavianProfile;
