@@ -1,7 +1,7 @@
 import React from "react";
-import navi from "../assets/andra.jpeg";
+import andra from "../assets/andra.jpeg";
 
-function andraProfile() {
+function AndraProfile() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-100 to-green-50 flex flex-col items-center p-6">
 
@@ -16,7 +16,7 @@ function andraProfile() {
         {/* FOTO */}
         <img
           src={andra}
-          alt="andra"
+          alt="Diyah Ayu Juliandra"
           className="w-40 h-40 object-cover rounded-full mx-auto mb-4 border-4 border-green-200 shadow-md"
         />
 
@@ -36,18 +36,18 @@ function andraProfile() {
         {/* DESKRIPSI */}
         <p className="text-gray-700 mt-4 leading-relaxed text-justify">
           Halo! Saya adalah Diyah Ayu Juliandra, mahasiswa Teknologi Informasi 
-        Universitas Brawijaya yang memiliki minat kuat di bidang teknologi, 
-        terutama UI/UX. Saya berfokus untuk terus mengasah kemampuan dalam merancang 
-        antarmuka yang intuitif serta memberikan pengalaman pengguna yang optimal. 
-        Selain itu, saya memiliki ketertarikan dalam memahami kebutuhan pengguna dan 
-        menerjemahkannya ke dalam desain yang fungsional, estetis, dan mudah digunakan. 
-        Saya juga terbiasa untuk terus belajar, beradaptasi dengan perkembangan teknologi, 
-        serta meningkatkan keterampilan melalui berbagai proyek dan eksplorasi di bidang desain digital.
+          Universitas Brawijaya yang memiliki minat kuat di bidang teknologi, 
+          terutama UI/UX. Saya berfokus untuk terus mengasah kemampuan dalam merancang 
+          antarmuka yang intuitif serta memberikan pengalaman pengguna yang optimal. 
+          Selain itu, saya memiliki ketertarikan dalam memahami kebutuhan pengguna dan 
+          menerjemahkannya ke dalam desain yang fungsional, estetis, dan mudah digunakan. 
+          Saya juga terbiasa untuk terus belajar, beradaptasi dengan perkembangan teknologi, 
+          serta meningkatkan keterampilan melalui berbagai proyek dan eksplorasi di bidang desain digital.
 
           <br /><br />
 
-        Saya berharap dapat terus mengembangkan diri dan berkontribusi dalam menciptakan solusi digital
-        yang inovatif dan bermanfaat bagi banyak orang.
+          Saya berharap dapat terus mengembangkan diri dan berkontribusi dalam menciptakan solusi digital
+          yang inovatif dan bermanfaat bagi banyak orang.
         </p>
       </div>
 
@@ -55,4 +55,4 @@ function andraProfile() {
   );
 }
 
-export default andraProfile;
+export default AndraProfile;
