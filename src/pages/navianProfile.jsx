@@ -1,12 +1,13 @@
 import React from "react";
 import TeamCard from "../components/TeamCard";
+import navi from "../src/assets/dwi.jpg";
 
 export default function navianProfile() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <h1 className="text-3xl font-bold mb-4">Navian</h1>
       <img
-        src="/path-to-navi-photo.jpg"
+        src={navi}
         alt="Navi Profile"
         className="w-40 h-40 rounded-full mb-4"
       />
