@@ -1,27 +1,26 @@
 import React from "react";
 import TeamCard from "../components/TeamCard";
-import navi from "../src/assets/dwi.jpg";
+import navi from "../assets/dwi.jpeg";
 
-export default function navianProfile() {
+function NaviProfile() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
-      <h1 className="text-3xl font-bold mb-4">Navian</h1>
+    <div className="min-h-screen bg-green-100 flex flex-col items-center justify-center p-6">
       <img
         src={navi}
-        alt="Navi Profile"
-        className="w-40 h-40 rounded-full mb-4"
+        alt="navi"
+        className="w-48 h-48 rounded-full mb-6 shadow-lg"
       />
-      <p className="text-gray-700 max-w-xl text-center mb-6">
-        Halo! Saya Navi, siswa kelas 12 jurusan RPL. Saya tertarik dengan web
-        development dan desain UI/UX. Saya suka membuat halaman profil yang
-        menarik dan responsif menggunakan Tailwind CSS. Saya berharap bisa
-        belajar lebih banyak tentang React dan kolaborasi tim dalam proyek ini.
-        {/* Tambahkan minimal 100 kata */}
+      <h1 className="text-4xl font-bold mb-2">Dwiki Ilman Nafian</h1>
+      <p className="text-gray-700 mb-2">Kelas 12 RPL | Domisili: [Isi Domisili]</p>
+      <p className="max-w-xl text-center mt-4 text-gray-800">
+        Halo! Saya Dwiki Ilman Nafian. Saya menyukai teknologi, web design, dan React JS.
+        Saya senang membuat desain yang simpel tapi menarik. Saya juga aktif belajar Tailwind CSS
+        dan membuat project landing page dan profil tim. Saya selalu berusaha berkembang,
+        belajar hal baru, dan bekerja sama dengan tim. Hobi saya termasuk membaca, coding, dan
+        mencoba hal kreatif yang menantang. (Ini contoh deskripsi, bisa diisi minimal 100 kata)
       </p>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <TeamCard name="Navian" role="Front-end Developer" />
-      </div>
     </div>
   );
 }
+
+export default NaviProfile;

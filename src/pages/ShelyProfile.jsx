@@ -1,6 +1,6 @@
 import React from "react";
 import TeamCard from "../components/TeamCard";
-import shely from "../src/assets/ijazah.jpg";
+import shely from "../assets/ijazah.jpg";
 
 function ShelyProfile() {
   return (
