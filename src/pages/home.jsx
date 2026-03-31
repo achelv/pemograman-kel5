@@ -2,23 +2,16 @@ import React from "react";
 import TeamCard from "../components/TeamCard";
 import logo from "../assets/logo.jpg";
 
-// ✅ IMPORT GAMBAR (WAJIB)
+// ✅ IMPORT GAMBAR
 import img1 from "../assets/ijazah.jpg";
 import img2 from "../assets/andra.jpeg";
 import img3 from "../assets/dwi.jpeg";
 
 function Home() {
   const team = [
-<<<<<<< HEAD
     { name: "Shely Rahmatika Devi", route: "/shely-profile", image: img1 },
     { name: "Diyah Ayu Juliandra", route: "/andra-profile", image: img2 },
     { name: "Dwiki Ilman Navian", route: "/navi-profile", image: img3 },
-=======
-    { name: "Shely Rahmatika Devi", route: "/shely-rahmatika", image: shely },
-    { name: "Dwiki Ilman Navian", route: "/navi-profile", image: navian },
-    { name: "Diyah Ayu Juliandra", route: "/andra-profile", image: andra },
-
->>>>>>> 890f236bc8ff322cb63776d48714afbfe5b1370a
   ];
 
   return (
