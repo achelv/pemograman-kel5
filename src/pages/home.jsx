@@ -5,8 +5,8 @@ import logo from "../assets/logo.jpg";
 function Home() {
   const team = [
     { name: "Shely Rahmatika Devi", route: "/shely-profile", image: "src/assets/ijazah.jpg" },
-    { name: "Shely Rahmatika", route: "/shely-rahmatika", image: "/assets/shely.jpg" },
-    { name: "Dwiki Ilman Navian", route: "/navi-profile", image: "src/assets/dwi.jpeg" },
+    { name: "Diyah Ayu Juliandra", route: "/andra-profile", image: "/assets/shely.jpg" },
+    { name: "Dwiki Ilman Nafian", route: "/navi-profile", image: "src/assets/dwi.jpeg" },
   ];
 
   return (
