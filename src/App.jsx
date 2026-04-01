@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/shely-rahmatika" element={<ShelyProfile />} />
+        <Route path="/shely-profile" element={<ShelyProfile />} />
         <Route path="/navi-profile" element={<NavianProfile />} />
         <Route path="/andra-profile" element={<AndraProfile />} />
       </Routes>

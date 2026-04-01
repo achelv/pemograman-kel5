@@ -17,7 +17,7 @@ function NavianProfile() {
         <img
           src={navi}
           alt="navi"
-          className="w-40 h-40 object-cover rounded-full mx-auto mb-4 border-4 border-green-200 shadow-md"
+          className="w-40 h-40 object-cover rounded-full mx-auto mb-4 border-4 border-blue-200 shadow-md"
         />
 
         {/* NAMA */}
